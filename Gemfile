@@ -5,4 +5,6 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "jekyll"
-gem "jekyll-postcss-v2"
+group :jekyll_plugins do
+ gem 'jekyll-postcss-v2'
+end
