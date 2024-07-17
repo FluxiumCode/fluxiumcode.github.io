@@ -6,7 +6,7 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="w-screen h-screen overflow-hidden">
+  <body class="w-screen h-screen">
     <header class="h-16 bg-transparent w-full flex items-center px-2">
         <div class="flex items-center space-x-2">
             <img class="w-9 h-9" src="../assets/images/flux-logo-light.svg"/>
@@ -16,7 +16,7 @@
             <a class="text-xl" href="https://github.com/kyteidev/FluxEditor">Source</a>
         </div>
     </header>
-    <div class="main bg-base-100 w-full flex flex-col items-center pt-32">
+    <div class="main bg-base-100 w-full h-[40rem] flex flex-col items-center pt-40">
         <div class="flex flex-col items-center mb-7">
             <h1 class="text-accent text-7xl brightness-150">Blazing fast</h1>
             <p class="text-content text-5xl">code editor.</p>
@@ -25,8 +25,8 @@
             <button class="btn btn-accent">Download Beta</button>
         </div>
     </div>
-    <footer class="h-12 w-full flex flex-col space-y-1 justify-center items-center absolute bottom-0 text-xs">
-        <p>Copyright © 2024 <a href="https://github.com/kyteidev/FluxEditor/graphs/contributors">The Flux Editor Contributors</a>. Licensed under the GNU General Public License v3.0</p>
+    <footer class="h-12 w-full flex flex-col space-y-1 justify-center items-center text-xs p-5">
+        <p class="text-center">Copyright © 2024 <a href="https://github.com/kyteidev/FluxEditor/graphs/contributors">The Flux Editor Contributors</a>. Licensed under the GNU General Public License v3.0</p>
         <p>This site is made using <a href="https://daisyui.com/">DaisyUI</a>.</p>
     </footer>
   </body>
