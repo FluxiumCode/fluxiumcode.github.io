@@ -10,8 +10,8 @@
   <body class="w-screen h-screen">
     <header class="h-16 bg-transparent w-full flex items-center px-4">
         <div class="flex items-center space-x-2">
-            <img class="w-9 h-9" src="../assets/images/flux-logo-light.svg"/>
-            <a class="text-3xl text-base-content">Flux Editor</a>
+            <a href="https://fluxeditor.github.io/"><img class="w-9 h-9" src="../assets/images/flux-logo-light.svg"/></a>
+            <a href="https://fluxeditor.github.io/" class="text-3xl text-base-content">Flux Editor</a>
         </div>
         <div class="ml-auto">
             <a class="text-xl" href="https://github.com/kyteidev/FluxEditor">Source</a>
@@ -19,12 +19,12 @@
     </header>
     <div class="main bg-base-100 w-full h-[40rem] flex flex-col items-center pt-40">
         <div class="flex flex-col items-center mb-7">
-            <h1 class="text-accent text-8xl brightness-150">Blazing fast</h1>
-            <p class="text-content text-6xl">code editor.</p>
+            <h1 class="text-accent text-7xl brightness-150 text-center">Blazing fast</h1>
+            <p class="text-content text-5xl text-center">code editor.</p>
         </div>
         <div class="flex flex-col items-center space-y-2">
-            <button class="btn btn-accent btn-lg" onclick="modal.showModal()">Download Beta</button>
-            <p class="text-xs">Not working? Try <a class="text-accent" href="https://github.com/kyteidev/FluxEditor/releases">this.</a></p>
+            <button class="btn btn-accent" onclick="modal.showModal()">Download Beta</button>
+            <p class="text-xs">Not working? Try <a class="text-info" href="https://github.com/kyteidev/FluxEditor/releases">this.</a></p>
         </div>
         <dialog id="modal" class="modal">
           <div class="modal-box">
@@ -32,7 +32,7 @@
             <p class="pt-4 text-justify">Since I don't have a code-signing certificate yet, you may encounter
                 a "unidentified developer" or "Windows protected your PC" popup. If you don't trust the
                 builds, you can always build Flux Editor from source
-                (instructions <a class="text-accent" href="https://github.com/kyteidev/FluxEditor/blob/dev/CONTRIBUTING.md">here</a>).
+                (instructions <a class="text-info" style="nav-index: -1;" href="https://github.com/kyteidev/FluxEditor/blob/dev/CONTRIBUTING.md">here</a>).
                 Thank you for understanding.
             </p>
             <div class="modal-action">
