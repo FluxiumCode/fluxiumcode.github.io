@@ -8,7 +8,7 @@
   "author": "The Flux Editor Contributors",
   "license": "GPL-3.0",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
     "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0",
