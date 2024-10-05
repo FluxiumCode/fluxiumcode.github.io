@@ -1,0 +1,17 @@
+{
+  "name": "fluxeditor.github.io",
+  "version": "1.0.0",
+  "description": "Official Flux Editor Website",
+  "scripts": {
+    "dev": "bundle exec jekyll serve"
+  },
+  "author": "kyteidev",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.6"
+  }
+}
