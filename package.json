@@ -1,17 +1,18 @@
 {
-  "name": "fluxeditor.github.io",
+  "name": "kyteidev-site",
   "version": "1.0.0",
-  "description": "Official Flux Editor Website",
+  "description": "My personal website",
   "scripts": {
-    "dev": "bundle exec jekyll serve"
+    "dev": "bundle exec jekyll serve",
+    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
   },
   "author": "kyteidev",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "daisyui": "^4.12.24",
+    "daisyui": "^4.12.10",
     "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^4.0.8"
+    "tailwindcss": "^3.4.6"
   }
 }
