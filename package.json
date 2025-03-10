@@ -9,7 +9,7 @@
   "author": "kyteidev",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.10",
     "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0",
