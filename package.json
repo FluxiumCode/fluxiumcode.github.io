@@ -1,10 +1,9 @@
 {
-  "name": "kyteidev-site",
+  "name": "fluxium-site",
   "version": "1.0.0",
-  "description": "My personal website",
+  "description": "Official Fluxium editor site",
   "scripts": {
-    "dev": "bundle exec jekyll serve",
-    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
+    "dev": "bundle exec jekyll serve"
   },
   "author": "kyteidev",
   "license": "MIT",
